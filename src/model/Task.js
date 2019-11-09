@@ -26,6 +26,15 @@ function setChecked(checked, task){
   return {...task, checked};
 }
 
+function getColor(task){
+  return task.color;
+}
+
+function setColor(color, task){
+  return {...task, color};
+}
+
+
 const publicFunctions = {
   empty,
   getName,

@@ -1,4 +1,4 @@
-import Ramda from 'ramda';
+import * as Ramda from 'ramda';
 
 function empty() {
   return {

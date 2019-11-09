@@ -1,0 +1,16 @@
+.card-list {
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    border: 1em;
+    border-radius: 1em;
+}
+
+.name {
+    font-weight: bold;
+    color: darkblue;
+}
+
+.cards:not(:last-child) {
+    margin-bottom: 1em;
+}

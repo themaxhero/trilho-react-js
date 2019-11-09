@@ -1,0 +1,30 @@
+.in-line-tag {
+    border-radius: 1em;
+    margin-right: 1em;
+}
+
+.checkbox {
+    border-radius: 1em;
+}
+
+.card-on-list {
+    display: flex;
+    flex-direction: column;
+    border-radius: 1em;
+}
+
+.tags {
+    display: flex;
+    border-radius: 1em;
+    flex-direction: row;
+}
+
+.name {
+    font-weight: bold;
+    color: white;
+}
+
+.actions {
+    display: flex;
+    flex-direction: row;
+}
